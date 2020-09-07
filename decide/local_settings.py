@@ -13,6 +13,7 @@ MODULES = [
     'voting',
 ]
 
+
 APIS = {
     'authentication': 'http://127.0.0.1',
     'base': 'http://127.0.0.1',
@@ -28,7 +29,7 @@ APIS = {
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'postgres',
+        'NAME': 'luirodvid',
         'USER': 'postgres',
         'HOST': 'localhost',
         'PORT': 5432,
